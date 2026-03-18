@@ -1,0 +1,124 @@
+:root {
+  /* Primary Colors */
+  --color-primary-blue: #033F63;
+  --color-primary-teal: #286068;
+  --color-primary-olive: #7C9885;
+
+  /* Secondary Colors */
+  --color-secondary-pastel-green: #B5B682;
+  --color-secondary-cream-yellow: #FEDC97;
+
+  /* Neutral Colors */
+  --color-neutral-800: #19213D;
+  --color-neutral-700: #353E5C;
+  --color-neutral-600: #6D758F;
+  --color-neutral-500: #B4B9C9;
+  --color-neutral-400: #E1E4ED;
+  --color-neutral-300: #EDEFF5;
+  --color-neutral-200: #F8FAFF;
+  --color-neutral-0: #FEFEFE;
+
+  /* System Colors */
+  --color-purple-400: #962DFF;
+  --color-purple-300: #DAB5FF;
+  --color-purple-200: #F0E3FF;
+  --color-purple-100: #F8F1FF;
+
+  --color-blue-400: #086CD9;
+  --color-blue-300: #1D88FE;
+  --color-blue-200: #8FC3FF;
+  --color-blue-100: #EAF4FF;
+
+  --color-green-400: #04CD00;
+  --color-green-300: #7FEA7E;
+  --color-green-200: #BCEFBD;
+  --color-green-100: #EEFEF0;
+
+  --color-red-400: #DC2B2B;
+  --color-red-300: #FF5A65;
+  --color-red-200: #FFBEC2;
+  --color-red-100: #FFEFF0;
+
+  --color-yellow-400: #FFC700;
+  --color-yellow-300: #FFD770;
+  --color-yellow-200: #FFEAB4;
+  --color-yellow-100: #FFF6E4;
+
+  /* Shadows - Neutral */
+  --shadow-neutral-1: 0 1px 2px rgba(25,33,61,0.08);
+  --shadow-neutral-2: 0 2px 6px rgba(25,33,61,0.12);
+  --shadow-neutral-3: 0 4px 12px rgba(25,33,61,0.16);
+  --shadow-neutral-4: 0 8px 20px rgba(25,33,61,0.20);
+  --shadow-neutral-5: 0 16px 32px rgba(25,33,61,0.24);
+
+  /* Shadows - Primary */
+  --shadow-primary-1: 0 1px 2px rgba(3,63,99,0.08);
+  --shadow-primary-2: 0 2px 6px rgba(3,63,99,0.16);
+  --shadow-primary-3: 0 4px 12px rgba(3,63,99,0.24);
+  --shadow-primary-4: 0 8px 20px rgba(3,63,99,0.32);
+  --shadow-primary-5: 0 16px 32px rgba(3,63,99,0.40);
+
+  /* Shadows - Secondary */
+  --shadow-secondary-1: 0 1px 2px rgba(254,220,151,0.16);
+  --shadow-secondary-2: 0 2px 6px rgba(254,220,151,0.24);
+  --shadow-secondary-3: 0 4px 12px rgba(254,220,151,0.32);
+  --shadow-secondary-4: 0 8px 20px rgba(254,220,151,0.40);
+  --shadow-secondary-5: 0 16px 32px rgba(254,220,151,0.48);
+
+  /* Typography - Fonts */
+  --font-heading: 'Unbounded', sans-serif;
+  --font-subtitle: 'Lora', serif;
+  --font-body: 'Hind Madurai', sans-serif;
+
+  /* Typography - Sizes */
+  --font-size-h1: 30px;
+  --line-height-h1: 36px;
+
+  --font-size-h2: 24px;
+  --line-height-h2: 29px;
+
+  --font-size-h3: 20px;
+  --line-height-h3: 24px;
+
+  --font-size-h4: 18px;
+  --line-height-h4: 22px;
+
+  --font-size-h5: 16px;
+  --line-height-h5: 26px;
+
+  --font-size-h6: 14px;
+  --line-height-h6: 20px;
+
+  --font-size-body-large: 20px;
+  --line-height-body-large: 24px;
+
+  --font-size-body: 16px;
+  --line-height-body: 24px;
+
+  --font-size-body-small: 13px;
+  --line-height-body-small: 20px;
+
+  /* Font Weights */
+  --font-weight-light: 200;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 800;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+}
