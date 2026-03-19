@@ -12,7 +12,8 @@
     "build-storybook": "storybook build",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "commit": "bash scripts/smart-commit.sh"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.91.0",
