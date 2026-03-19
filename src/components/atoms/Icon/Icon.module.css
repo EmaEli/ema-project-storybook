@@ -1,0 +1,12 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary { color: var(--color-primary-blue); }
+.secondary { color: var(--color-primary-teal); }
+.success { color: var(--color-green-400); }
+.error { color: var(--color-red-400); }
+.warning { color: var(--color-yellow-400); }
+.neutral { color: var(--color-neutral-700); }
