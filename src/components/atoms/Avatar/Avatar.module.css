@@ -1,0 +1,41 @@
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Sizes */
+.sm {
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-body-small);
+}
+
+.md {
+  width: 32px;
+  height: 32px;
+  font-size: var(--font-size-body);
+}
+
+.lg {
+  width: 48px;
+  height: 48px;
+  font-size: var(--font-size-h5);
+}
+
+.xl {
+  width: 64px;
+  height: 64px;
+  font-size: var(--font-size-h3);
+}
+
+/* Fallback */
+.fallback {
+  background-color: var(--color-primary-blue);
+  color: var(--color-neutral-0);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+}
